@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 
+import Coins from "./components/Coins";
+
 function App() {
 
     const [coins, setCoins] = useState([]);
@@ -19,7 +21,7 @@ function App() {
 
     return (
         <>
-            <h1>hello world</h1>
+            <Coins coins={coins} />
         </>
     )
 }
