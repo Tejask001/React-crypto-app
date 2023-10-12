@@ -1,5 +1,6 @@
 import React from 'react';
 import CoinRow from "./CoinRow";
+import "./Coins.css"
 
 const Coins = (props) => {
     return (
